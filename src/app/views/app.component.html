@@ -1,0 +1,17 @@
+<div id="menu">
+    <div id="container">
+        <div class="links left" id="home" (click)="changeColor('home')" routerLink="/">Accueil</div>
+        <div class="links right" id="skills" (click)="changeColor('skills')" routerLink="/skills">Compétences</div>
+        <div class="links left" id="about" (click)="changeColor('about')" routerLink="/about">Expériences</div>
+        <div class="links right" id="portfolio" (click)="changeColor('portfolio')" routerLink="/portfolio">Portfolio</div>
+        <div class="links left" id="contact" (click)="changeColor('contact')" routerLink="/contact">Contact</div>
+    </div>
+</div>
+
+<section id="bg">
+
+</section>
+
+<!-- <section id="affichage"> -->
+<router-outlet id='router'></router-outlet>
+<!-- </section> -->

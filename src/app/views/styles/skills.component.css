@@ -1,0 +1,151 @@
+.affichage{
+    width: 80%;
+    height: 90vh;
+    right: calc(10% - 100px);
+    top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.percent{
+    height: 6vmin;
+    width: 6vmin;
+    border: 2px solid white;
+    border-radius: 3vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 2vmin;
+}
+
+#css div{
+    width: 65%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#html div{
+    width: 90%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#js div{
+    width: 90%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#jquery div{
+    width: 80%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#node div{
+    width: 80%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#php div{
+    width: 95%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#ajax div{
+    width: 90%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#cordova div{
+    width: 70%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#angular div{
+    width: 85%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+#photoshop div{
+    width: 50%;
+    background-color: rgb(7, 207, 240);
+    height: 100%;
+}
+
+.img{
+    height: 10vmin;
+    width: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.skill{
+    height: 18vmin;
+    width: 60vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillBar{
+    height: 2vmin;
+    width: 30vmin;
+    border: 1px solid rgb(179, 179, 179);
+}
+
+@media (max-width: 1450px){
+
+    .skill{
+        width: 45vmin;
+    }
+
+    .percent{
+        height: 4vmin;
+        width: 4vmin;
+        border-radius: 2vmin;
+        font-size: 1.5vmin;
+    }
+
+}
+
+@media (max-width: 1105px){
+
+    .skill{
+        height: 10vmin;
+    }
+
+}
+
+@media (max-width: 800px){
+
+    .affichage{
+        right: calc(10% - 75px);
+    }
+
+}
+
+@media (max-width: 640px){
+
+    .affichage{
+        right: 0;
+        top: 20vh;
+    }
+
+}

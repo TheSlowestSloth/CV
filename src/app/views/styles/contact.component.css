@@ -1,0 +1,108 @@
+.affichage{
+    width: 80%;
+    position: absolute;
+    height: 70vh;
+    top: 15vh;
+    right: calc(10% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon{
+    height: 15vmin;
+    width: 15vmin;
+}
+
+#icon img{
+    max-height: 100%;
+    max-width: 100%
+}
+
+.image{
+    height: 15vmin;
+    width: 15vmin;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(7, 207, 240);
+}
+
+#form{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+    height: 35vh;
+    border: 2px solid rgb(7, 207, 240);
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contain{
+    width: 90%;
+    height: 10vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#info div div img{
+    max-height: 6vmin;
+    max-width: 6vmin;
+    margin: 0 5px;
+}
+
+.i{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 6vmin;
+    font-size: 2vmin;
+}
+
+.blue{
+    color: rgb(7, 207, 240);
+}
+
+#titre{
+    font-size: 7vmin;
+    width: 50vmin;
+    display: flex;
+    justify-content: space-around;
+}
+
+#formLink{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 800px){
+    .affichage{
+        right: calc(10% - 75px);
+    }
+}
+
+@media (max-width: 640px){
+    .affichage{
+        width: 90%;
+        position: absolute;
+        height: 60vh;
+        top: 20vh;
+        right: 0;
+    }
+
+    .i{
+        font-size: 10px;
+    }
+}

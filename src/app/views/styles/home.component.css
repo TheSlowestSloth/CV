@@ -1,0 +1,112 @@
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 7vmin;
+}
+
+.blue{
+    color: rgb(7, 207, 240);
+}
+
+.affichage{
+    height: 90vh;
+    max-width: 670px;
+    right: 0;
+    margin: 5vh calc(50% - 425px);
+    bottom: 0;
+}
+
+#citation{
+    height: 30vmin;
+    width: 100%;
+    position: absolute;
+    top: 60vmin;
+    display: flex;
+    align-items: center;
+}
+
+.h{
+    font-size: 20vmin;
+    font-family: Courier New, Courier, monospace;
+}
+
+#citation div{
+    font-family: Courier New, Courier, monospace;
+    font-size: 2.5vmin;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(7, 207, 240);
+}
+
+#myId{
+    position: absolute;
+    font-size: 3vmin;
+    right: 0;
+    width: 40vmin;
+    height: 20vmin;
+    top: 25vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#myId :first-child{
+    color: rgb(7, 207, 240);
+}
+
+h1 div{
+    color: rgb(7, 207, 240);
+    margin: 1vmin;
+    font-size: 8vmin;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    font-size: 5vmin;
+}
+
+h2 div{
+    color: rgb(7, 207, 240);
+    margin: 1vmin;
+}
+
+hr{
+    border: 2px solid white;
+}
+
+#photo{
+    left:0;
+    height: 20vmin;
+    margin: 10px 0;
+}
+
+#infos{
+    height: 20vmin;
+    right: 0;
+    top: calc(50vmin + 10px);
+    position: absolute;
+    font-size: 2.5vmin
+}
+
+@media (max-width: 640px){
+
+    #infos{
+        font-size: 13.5px;
+    }
+
+    .affichage{
+        position: absolute;
+        height: 75vh;
+        width: 90%;
+        margin: 5%;
+    }
+
+}
